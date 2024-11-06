@@ -1,3 +1,5 @@
+//! How to find the longest common prefix string among all strings in the array ?
+
 function longestCommonPrefix(str) {
 	if (!str.length) return "";
 

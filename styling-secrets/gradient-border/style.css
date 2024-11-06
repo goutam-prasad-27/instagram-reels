@@ -1,0 +1,82 @@
+/* Global styles */
+* {
+	margin: 0%;
+	padding: 0%;
+	box-sizing: border-box;
+}
+
+/* CSS variables */
+:root {
+	--background: #070e18;
+	--imgBox: #0d192a;
+	--gradient-1: #a1c181;
+	--gradient-2: #ccff33;
+	--gradient-3: #38b000;
+}
+
+/* Rotating elements property */
+@property --rotate {
+	syntax: "<angle>";
+	initial-value: 45deg;
+	inherits: true;
+}
+
+/* Body styles */
+body {
+	min-height: 100vh;
+	background: var(--background);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/* Wrapper styles */
+.wrapper {
+	position: relative;
+	background: var(--imgBox);
+	width: 300px;
+	height: 450px;
+	padding: 3px;
+	border-radius: 5px;
+	margin: 120px;
+}
+
+/* Pseudo-elements styles */
+.wrapper::after,
+.wrapper::before {
+	content: "";
+	position: absolute;
+	width: 104%;
+	height: 102%;
+	background-image: linear-gradient(
+		var(--rotate),
+		var(--gradient-1),
+		var(--gradient-2),
+		var(--gradient-3),
+		var(--gradient-2),
+		var(--gradient-1)
+	);
+	border-radius: 6px;
+	z-index: -1;
+	left: -2%;
+	top: -1%;
+	transition: opacity 0.2s;
+}
+
+/* Blur filter */
+.glow::after {
+	filter: blur(40px);
+}
+
+/* Animation */
+.rotate::after,
+.rotate::before {
+	animation: spin 2s linear infinite;
+}
+
+/* Define the animation */
+@keyframes spin {
+	to {
+		--rotate: 360deg;
+	}
+}

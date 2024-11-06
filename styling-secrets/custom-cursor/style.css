@@ -1,0 +1,40 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html,
+body {
+	background: lightblue;
+	font-family: Impact, "Arial Narrow Bold";
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	gap: 10rem;
+}
+div {
+	font-size: 5rem;
+	letter-spacing: 3px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 40%;
+	height: 200px;
+	width: 400px;
+	background-color: lightcoral;
+	color: white;
+	border: 2px white solid;
+	border-radius: 30px;
+}
+
+.cat:hover {
+	cursor: url(./cat.svg), auto;
+}
+.pin:hover {
+	cursor: url(./pin.svg), auto;
+}
+.ghost:hover {
+	cursor: url(./ghost.svg), auto;
+}
+
+/*?==> https://www.svgrepo.com/ */

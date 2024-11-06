@@ -1,0 +1,23 @@
+* {
+	margin: 0%;
+	padding: 0%;
+	box-sizing: border-box;
+}
+:root {
+	--backgroundImg: url(./background.jpg);
+}
+
+html,
+body {
+	background: var(--backgroundImg);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+img {
+	width: 50%;
+	height: auto;
+
+	-webkit-box-reflect: below 0 linear-gradient(transparent 25%, #808080);
+}

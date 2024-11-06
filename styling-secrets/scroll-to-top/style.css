@@ -1,0 +1,27 @@
+/* Reset padding and margin for all elements */
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+/* Enable smooth scrolling */
+html,
+body {
+	width: 100%;
+	scroll-behavior: smooth;
+}
+
+/* Set height, font size, and alignment for div */
+div {
+	height: 100vh;
+	border-bottom: 10px white solid;
+	border-top: 10px white solid;
+}
+
+/* Style for the fixed-position arrow */
+a {
+	position: fixed;
+	bottom: 100px;
+	right: 100px;
+}

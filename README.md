@@ -27,4 +27,5 @@ This repository contains code examples and style guides of my Instagram series *
 ***[Goutam Prasad](https://github.com/goutam-prasad-27)***
 
 ***Scan this QR code to follow me on Instagram!***
-     ![QR Code Image](/instaQR.png)
+
+![QR Code Image](/instaQR.png)

@@ -12,6 +12,7 @@ This repository contains code examples and style guides of my Instagram series *
   * **The Josephus Problem:** This code implements the Josephus problem using recursion.
   * **Roman To Integer:** JavaScript function to convert Roman numerals to their corresponding integer values.
   * **Longest Common Prefix:** JavaScript function to find the longest common prefix string among an array of strings.
+  * **Valid Parentheses:** JavaScript function to determine if a given string of parentheses, brackets, and braces is valid and properly balanced.
   * **Coming Soon:**
 
 * **Styling Secrets:**

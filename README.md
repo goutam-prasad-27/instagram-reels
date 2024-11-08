@@ -20,6 +20,7 @@ This repository contains code examples and style guides of my Instagram series *
   * **Scroll To Top:** This tutorial demonstrates how to create a simple web page with a smooth scrolling effect.
   * **Custom Cursor:** This code demonstrates how to create custom cursors.
   * **CSS Webkit:** This HTML, CSS code creates a webpage with a reflective image effect.
+  * **Button Hover:** This HTML, CSS code creates a minimal stylish Button with Hover & Click Animation.
   * **Coming Soon:**
 
 # **Author**
